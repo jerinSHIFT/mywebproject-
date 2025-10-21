@@ -18,22 +18,22 @@ if(num > 0){
 } else {
     console.log("Zero");
 }
-//
-//for (let i = 0; i < 5; i++) {
-  //console.log(i);
-//}
 
-//let i=5;
-//while(i<10){
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
 
-    //console.log(i);
-    //i++;
-//}
-//let j=10;
- // do{
+let i=5;
+while(i<10){
 
-  //  console.log(j);
-// }while(j<20);
+    console.log(i);
+    i++;
+}
+let j=10;
+ do{
+
+   console.log(j);
+ }while(j<20);
  
   
  const myfruit = ["apple", "banana", "mango"];
@@ -44,11 +44,11 @@ const person = { name: "Alex", age: 25, city: "Paris" };
 for (let key in person) {
   console.log(key, person[key]);
 }
-//for (let i = 1; i <= 3; i++) {
-  //for (let j = 1; j <= 2; j++) {
-   // console.log(`i  = ${i}, j = ${j}`);
- // }
-//}
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= 2; j++) {
+   console.log(`i  = ${i}, j = ${j}`);
+  }
+}
 for (let i = 0; i < 5; i++) {
   if (i === 2) continue; // skip 2
   if (i === 4) break;    // stop at 4
