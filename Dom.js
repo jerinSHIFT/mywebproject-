@@ -7,20 +7,19 @@
 // console.dir(document.body)
 let bgcolor = document.body.background("Green");
 console.log(bgcolor);
-
 // ----------------------
 // paragraph n text chng 
 document.querySelector("p").textContent = "Text changed!";
 // -------------------------------------------------------
 // h1 er color chng
 document.querySelector("h1").style.color = "red";
-// -------------------------------------
+// -------------------------------------------------------
 // new li jog kora ul  er moddhe
-// ___________________________________________
+// _______________________________________________________
 const li = document.createElement("li");
 li.textContent = "New item";
 document.querySelector("ul").appendChild(li);
-// ___________________________________________________-
+// ___________________________________________________
 
 //  remove 1st  paragrap;
 const p = document.querySelector("p");
@@ -53,7 +52,7 @@ btn.addEventListener("click", () => {
 const input = document.querySelector("#name");
 const btn2 = document.querySelector("#submit");
 btn2.addEventListener("click", () => {
-  alert("Hello, " + input.value);
+alert("Hello, " + input.value);
 });
 // ________________________________________________________________________
 // Change background color randomly
@@ -63,7 +62,7 @@ document.querySelector("#change").addEventListener("click", () => {
   document.body.style.backgroundColor =
     colors[Math.floor(Math.random() * colors.length)];
 });
-// ________________________________________________________________________________-
+// ________________________________________________________________________________
 
 // Dynamic list builder
 
